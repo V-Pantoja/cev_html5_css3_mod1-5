@@ -1,0 +1,46 @@
+:root {
+   font-size: 62.5%;
+}
+
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+#container {
+   width: 100vw;
+   height: 100vh;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - */
+
+section {
+   background-color: lightgray;
+
+   margin: 4rem 0;
+   padding: 2rem 4rem;
+}
+
+section h2 {
+   font-size: 22px;
+}
+
+section p {
+   font-size: 16px;
+}
+
+/* - - - - - - - - - - - - - - - - - - - - - - - */
+
+#box-thumbs {
+   width: 400px;
+   margin: auto;
+}
+
+#box-thumbs img {
+   width: 200px;
+}
+
+#box-thumbs img#thumb3 {
+   width: 400px;
+}

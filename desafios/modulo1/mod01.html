@@ -6,9 +6,10 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    <!-- desafio das imagens (adicionar favicon) -->
-   <link rel="shortcut icon" href="img/d002/favicon.ico" type="image/x-icon">
-
+   <link rel="shortcut icon" href="d002/favicon.ico" type="image/x-icon">
    <title>Desafios do Modulo-1</title>
+
+   <link rel="stylesheet" href="main.css">
 </head>
 <body>
    <div id="container">
@@ -23,16 +24,16 @@
       <section>
          <h2>Desafio das Imagens</h2>
          <p>Inserir imagens em HTML é muito simples, tanto no conteúdo quanto lá em cima, como ícone de favoritos!</p>
-         <img src="img/d002/github-p.png" alt="Imagem do Gustavo Polvo">
+         <img src="d002/github-p.png" alt="Imagem do Gustavo Polvo">
       </section>
 
       <section>
          <h2>Desafio do Mapa Mundi</h2>
          <p>Hora de treinar um pouco o uso de imagens, parágrafos e trocas de linhas.</p>
          
-         <img src="./img/d003/mapa03.png" /> <img src="./img/d003/mapa07.png" /> <img src="./img/d003/mapa05.png" /><br />
-         <img src="./img/d003/mapa09.png" /> <img src="./img/d003/mapa01.png" /> <img src="./img/d003/mapa08.png" /><br />
-         <img src="./img/d003/mapa06.png" /> <img src="./img/d003/mapa02.png" /> <img src="./img/d003/mapa04.png" /><br />
+         <img src="d003/mapa03.png" /> <img src="d003/mapa07.png" /> <img src="d003/mapa05.png" /><br />
+         <img src="d003/mapa09.png" /> <img src="d003/mapa01.png" /> <img src="d003/mapa08.png" /><br />
+         <img src="d003/mapa06.png" /> <img src="d003/mapa02.png" /> <img src="d003/mapa04.png" /><br />
       </section>
 
       <section>
@@ -92,12 +93,34 @@
          <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência</p>
 
          <picture>
-            <source media="(max-width: 760px)" srcset="./img/d007/paisagem-p.png" type="image/png">
-            <source media="(max-width: 1250px )" srcset="./img/d007/paisagem-m.png" type="image/png">
+            <source media="(max-width: 760px)" srcset="d007/paisagem-p.png" type="image/png">
+            <source media="(max-width: 1250px )" srcset="d007/paisagem-m.png" type="image/png">
 
             <!-- Essa é a imagem padrao e acima serao colocadas os tamanhos menores (seguindo uma ordem DECRES CENTE) -->
-            <img src="./img/d007/paisagem-g.png" alt="Imagem ilustrativa">
+            <img src="d007/paisagem-g.png" alt="Imagem ilustrativa">
          </picture>
+      </section>
+
+      <section>
+         <h2>Navegação entre paginas</h2>
+
+         <p>Está é a pagina principal, o indice do seu site. É a pagina cinza. A partir dela você pode acessar as outras áreas principais attravés dos links a seguir:</p>
+
+         <ul>
+            <li><a href="d008/pag-verde.html">Acessar a pagina VERDE</a></li>
+            <li><a href="d008/pag-azul.html">Acessar a pagina AZUL</a></li>
+         </ul>
+      </section>
+
+      <section>
+         <h2>Videos legais para assistir</h2>
+
+         <div id="box-thumbs">
+            <a href="d009/video1.html"><img src="d009/img/jogando-skywars.jpg" alt="Thumb Jogando Skywars"></a>
+            <a href="d009/video2.html"><img src="d009/img/jogando-ff.jpg" alt="Jogando FF"></a> <br/>
+            <a href="d009/video3.html"><img id="thumb3" src="d009/img/friday-the-13.jpg" alt="Jogando Friday The 13"></a>
+         </div>
+         
       </section>
    </div>
 
