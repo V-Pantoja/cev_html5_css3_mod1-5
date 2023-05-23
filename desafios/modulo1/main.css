@@ -9,14 +9,19 @@
 }
 
 #container {
-   width: 100vw;
-   height: 100vh;
+   padding: 2rem 4rem 0;
+
+   font-size: 16px;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - */
+h1 {
+   font-size: 24px;
+}
 
+/* - - - - - - - - - - - - - - - - - - - - - - - */
 section {
-   background-color: lightgray;
+   background-color: whitesmoke;
 
    margin: 4rem 0;
    padding: 2rem 4rem;
@@ -24,10 +29,6 @@ section {
 
 section h2 {
    font-size: 22px;
-}
-
-section p {
-   font-size: 16px;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - */
